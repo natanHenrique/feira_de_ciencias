@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{ margin: 0; padding: 0; }
+
+
+body{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(68, 67, 67);
+}
+
+.top_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+    background: #94FCC3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h1{
+    font-size: 30pt;
+}
+h3{
+    font-size: 20pt;
+}
+.h_mar{
+    margin-top: 20px;
+}
+.text_img{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.text{
+    justify-content: center;
+    display: flex;
+    width: 490px;
+    height: 288px;
+    border-radius: 5%;
+    margin-right: 25px;
+    padding-top: 10px;
+    background: #94FCC3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.img{
+    width: 344px;
+    height: 298px;
+    border-radius: 5%;
+    background: #FFFFFF;
+    border: 1px solid #94FCC3;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.img2{
+    width: 600px;
+    height: 298px;
+    border-radius: 5%;
+    background: #FFFFFF;
+    border: 1px solid #94FCC3;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.img3{
+    width: 550px;
+    height: 298px;
+    border-radius: 5%;
+    margin-right: 25px;
+    background: #FFFFFF;
+    border: 1px solid #94FCC3;
+    box-sizing: border-box;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.img4{
+    width: 550px;
+    height: 298px;
+    border-radius: 5%;
+    background: #FFFFFF;
+    border: 1px solid #94FCC3;
+    box-sizing: border-box;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.info_c{
+    width: 237px;
+    height: 298px;;
+    border-radius: 5%;
+    align-items: center;
+    background: #94FCC3;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    justify-content: center;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.btn{
+    width: 212px;
+    height: 49px;
+    border: none;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 35px;
+    background: #BEF5D7;
+    color: rgb(68, 67, 67);
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#link_a{
+    padding-left: 106px;
+    padding-right: 106px;
+    display: flex;
+    border-radius: 15px;
+    height: 49px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+     background: #323634;
+     color: white;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#link_a:hover { 
+    background: #c0f6d9;
+    color: rgb(68, 67, 67);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition-duration: 0.5s;
+    
+}
+.text_align{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.text2{
+    width: 237px;
+    height: 298px;;
+    border-radius: 5%;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    justify-content: center;
+    text-align: center;
+    margin-left: 25px;
+}
+p{
+    font-size: 18pt;
+    justify-content: center;
+    text-align: center;
+}
+
+.line_color{
+    text-align: center;
+    background: #94FCC3;
+    display: flex;
+    margin-top: 50px;
+    padding-top: 10px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+}
+.text_f{
+    justify-content: center;
+    text-align: center;
+    width: 1125px;
+    height: 250px;
+    padding-top: 10px;
+    background: #94FCC3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#foto{
+    width: 550px;
+    height: 298px;
+    border-radius: 5%;
+    background: #FFFFFF;
+    justify-content: space-around;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#foto_escola{
+    width: 344px;
+    height: 298px;
+    border-radius: 5%;
+}
+#foto_ead{
+    width: 550px;
+    height: 298px;
+    border-radius: 5%;
+}
+#fotoEad{
+    width: 600px;
+    height: 298px;
+    border-radius: 5%;
+}
+.btn_index{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+footer{
+    height: 100px;
+    margin-top: 50px;
+    text-align: center;
+    font-style: italic;
+    
+}
+
+/*
+.pic{
+    background: linear-gradient(130deg, #74b9ff, #e66767)
+    background-size 200% 200%;
+    animation: animated-gradient 2s linear infinite;
+}
+
+@keyframes animated-gradient{
+    25%{
+        background-position: left-bottom;
+    }
+    50%{
+        background-position: right-bottom;
+    }
+    75%{
+        background-position: rigth-top;
+    }
+    100%{
+        background-position: left-top;
+    }
+}
+*/
